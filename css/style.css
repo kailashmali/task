@@ -1,0 +1,84 @@
+.box-section {
+  padding: 30px 0;
+}
+.box-common {
+  border: 1px solid #323232;
+  margin: 0 0 30px 0;
+  position: relative;
+  overflow: hidden;
+}
+.box-common:hover {
+  border: none;
+}
+.box-common:hover .box-common-hover {
+  bottom: 0px;
+  -webkit-transition: all;
+  -moz-transition: all;
+  -o-transition: all;
+  -ms-transition: all;
+  transition: all;
+}
+.box-common:hover .image-container,
+.box-common:hover .content-container {
+  visibility: hidden;
+}
+.image-container img {
+  width: 100%;
+  border-bottom: 1px solid #323232;
+}
+.subject {
+  font-size: 15px;
+  color: #00f;
+  text-transform: uppercase;
+  float: left;
+  font-weight: bold;
+}
+.price {
+  font-size: 15px;
+  color: #008000;
+  float: right;
+  font-weight: bold;
+}
+.date {
+  font-size: 15px;
+  color: #323232;
+  float: left;
+}
+.class {
+  font-size: 15px;
+  color: #000;
+  float: right;
+}
+.content-container {
+  padding: 20px;
+}
+.content-container p {
+  margin: 15px 0px;
+  font-size: 15px;
+}
+.learn-btn {
+  background-color: #ffa500;
+  color: #fff;
+  border: 1px solid #ffa500;
+  width: 100%;
+  -o-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 20px;
+  font-weight: bold;
+}
+.box-common-hover {
+  position: absolute;
+  bottom: 100%;
+  border: 1px solid #323232;
+}
+.content-container-hover {
+  padding: 45px;
+}
+.content-container-hover p {
+  margin: 30px 0;
+}
