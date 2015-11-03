@@ -25,7 +25,8 @@ body {
 .box-common:hover .content-container {
   visibility: hidden;
 }
-.image-container img {
+.image-container img,
+.learn-btn {
   width: 100%;
   border-bottom: 1px solid #323232;
 }
@@ -58,7 +59,6 @@ body {
   background-color: #ffa500;
   color: #fff;
   border: 1px solid #ffa500;
-  width: 100%;
   -o-border-radius: 0px;
   -webkit-border-radius: 0px;
   -ms-border-radius: 0px;
