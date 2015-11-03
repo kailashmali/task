@@ -1,9 +1,9 @@
-blackshade-color= #323232
-blue-color= #0000ff
-green-color= #008000
-black-color= #000000
-white-color= #ffffff
-orange-color= #ffa500
+color-border-dark= #323232
+color-subject= #0000ff
+color-price= #008000
+color-darkest= #000000
+color-lightest= #ffffff
+color-button-light= #ffa500
 
 transition(n)
   -webkit-transition n
@@ -19,11 +19,14 @@ border-radius(n)
   -moz-border-radius n
   border-radius n
   
+body  
+  font-size 15px
+
 .box-section
   padding 30px 0
 
 .box-common
-  border 1px solid blackshade-color
+  border 1px solid color-border-dark
   margin 0 0 30px 0
   position relative
   overflow hidden
@@ -39,41 +42,36 @@ border-radius(n)
 .image-container
   img
     width 100%
-    border-bottom 1px solid blackshade-color
+    border-bottom 1px solid color-border-dark
 
 .subject
-  font-size 15px
-  color blue-color
+  color color-subject-text
   text-transform uppercase
   float left
   font-weight bold
 
 .price
-  font-size 15px
-  color green-color
+  color color-price
   float right
   font-weight bold
 
 .date
-  font-size 15px
-  color blackshade-color
+  color color-border-dark
   float left
 
 .class
-  font-size 15px
-  color black-color
+  color color-darkest
   float right
 
 .content-container
   padding 20px
   p
     margin 15px 0px
-    font-size 15px
 
 .learn-btn
-  background-color orange-color
-  color white-color
-  border 1px solid orange-color
+  background-color color-button-light
+  color color-lightest
+  border 1px solid color-button-light
   width 100%
   border-radius 0px
   text-transform uppercase
@@ -84,7 +82,7 @@ border-radius(n)
 .box-common-hover
   position absolute
   bottom 100%
-  border 1px solid blackshade-color
+  border 1px solid color-border-dark
 
 .content-container-hover
   padding 45px

@@ -1,3 +1,6 @@
+body {
+  font-size: 15px;
+}
 .box-section {
   padding: 30px 0;
 }
@@ -27,25 +30,21 @@
   border-bottom: 1px solid #323232;
 }
 .subject {
-  font-size: 15px;
-  color: #00f;
+  color: color-subject-text;
   text-transform: uppercase;
   float: left;
   font-weight: bold;
 }
 .price {
-  font-size: 15px;
   color: #008000;
   float: right;
   font-weight: bold;
 }
 .date {
-  font-size: 15px;
   color: #323232;
   float: left;
 }
 .class {
-  font-size: 15px;
   color: #000;
   float: right;
 }
@@ -54,7 +53,6 @@
 }
 .content-container p {
   margin: 15px 0px;
-  font-size: 15px;
 }
 .learn-btn {
   background-color: #ffa500;
