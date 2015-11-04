@@ -1,0 +1,42 @@
+color-primary= #f47d1d
+color-lightest= #ffffff 
+
+html,
+body
+  overflow-x hidden
+
+body
+  padding-top 70px
+
+.navbar
+  background-color color-primary !important
+  a
+    color color-lightest
+
+.nav 
+  li 
+    a
+     &:focus, &:hover
+      background-color color-lightest
+      color color-primary
+
+.btn-default
+  background-color color-primary
+  border-color color-primary
+  color color-lightest
+
+.list-group-item
+  &.active
+    background-color color-primary
+    border-color color-primary
+    &:focus, &:hover
+      @extends .list-group-item.active
+
+.navbar-toggle
+  background-color color-lightest
+  .icon-bar
+    background-color color-primary
+
+footer
+  padding 30px 0
+

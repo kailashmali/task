@@ -1,0 +1,38 @@
+html,
+body {
+  overflow-x: hidden;
+}
+body {
+  padding-top: 70px;
+}
+.navbar {
+  background-color: #f47d1d !important;
+}
+.navbar a {
+  color: #fff;
+}
+.nav li a:focus,
+.nav li a:hover {
+  background-color: #fff;
+  color: #f47d1d;
+}
+.btn-default {
+  background-color: #f47d1d;
+  border-color: #f47d1d;
+  color: #fff;
+}
+.list-group-item.active,
+.list-group-item.active:focus,
+.list-group-item.active:hover {
+  background-color: #f47d1d;
+  border-color: #f47d1d;
+}
+.navbar-toggle {
+  background-color: #fff;
+}
+.navbar-toggle .icon-bar {
+  background-color: #f47d1d;
+}
+footer {
+  padding: 30px 0;
+}
