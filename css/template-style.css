@@ -6,7 +6,7 @@ body {
   padding-top: 70px;
 }
 .navbar {
-  background-color: #858585 !important;
+  background-color: #858585;
 }
 .navbar a {
   color: #fff;
@@ -64,4 +64,38 @@ footer {
 }
 .color-box-main .color-box6 {
   background-color: #551a8b;
+}
+.navbar.active1 {
+  background-color: #00f;
+}
+.btn-default.active1 {
+  background-color: #00f;
+  border-color: #00f;
+}
+nav.active1 li a:focus,
+nav.active1 li a:hover {
+  color: #00f;
+}
+.list-group-item.active1.active,
+.list-group-item.active1.active:focus,
+.list-group-item.active1.active:hover,
+.list-group-item.active2.active:focus,
+.list-group-item.active2.active:hover {
+  background-color: #00f;
+  border-color: #00f;
+}
+.navbar.active2 {
+  background-color: #f00;
+}
+.btn-default.active2 {
+  background-color: #f00;
+  border-color: #f00;
+}
+nav.active2 li a:focus,
+nav.active2 li a:hover {
+  color: #f00;
+}
+.list-group-item.active2.active {
+  background-color: #f00;
+  border-color: #f00;
 }
