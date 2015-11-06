@@ -65,37 +65,3 @@ footer {
 .color-box-main .color-box6 {
   background-color: #c762cb;
 }
-.navbar.active1 {
-  background-color: #2f92ee;
-}
-.btn-default.active1 {
-  background-color: #2f92ee;
-  border-color: #2f92ee;
-}
-nav.active1 li a:focus,
-nav.active1 li a:hover {
-  color: #2f92ee;
-}
-.list-group-item.active1.active,
-.list-group-item.active1.active:focus,
-.list-group-item.active1.active:hover,
-.list-group-item.active2.active:focus,
-.list-group-item.active2.active:hover {
-  background-color: #2f92ee;
-  border-color: #2f92ee;
-}
-.navbar.active2 {
-  background-color: #fc4242;
-}
-.btn-default.active2 {
-  background-color: #fc4242;
-  border-color: #fc4242;
-}
-nav.active2 li a:focus,
-nav.active2 li a:hover {
-  color: #fc4242;
-}
-.list-group-item.active2.active {
-  background-color: #fc4242;
-  border-color: #fc4242;
-}
