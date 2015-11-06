@@ -1,0 +1,22 @@
+color-purple= #c762cb
+
+.navbar
+  background-color color-purple
+
+.btn-default
+  background-color color-purple
+  border-color color-purple
+
+.nav
+  li 
+    a
+     &:focus, &:hover
+      color color-purple
+
+.list-group-item
+  &.active
+    background-color color-purple
+    border-color color-purple
+    &:focus, &:hover
+      @extends .list-group-item.active
+

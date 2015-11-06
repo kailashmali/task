@@ -1,0 +1,21 @@
+color-blue= #2f92ee
+
+.navbar
+  background-color color-blue
+
+.btn-default
+  background-color color-blue
+  border-color color-blue
+
+.nav
+  li 
+    a
+     &:focus, &:hover
+      color color-blue
+
+.list-group-item
+  &.active
+    background-color color-blue
+    border-color color-blue
+    &:focus, &:hover
+      @extends .list-group-item.active

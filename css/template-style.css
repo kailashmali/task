@@ -48,54 +48,54 @@ footer {
   cursor: pointer;
 }
 .color-box-main .color-box1 {
-  background-color: #00f;
+  background-color: #2f92ee;
 }
 .color-box-main .color-box2 {
-  background-color: #f00;
+  background-color: #fc4242;
 }
 .color-box-main .color-box3 {
-  background-color: #0f0;
+  background-color: #3fc35f;
 }
 .color-box-main .color-box4 {
-  background-color: #ff0;
+  background-color: #f2d438;
 }
 .color-box-main .color-box5 {
-  background-color: #ffa500;
+  background-color: #ff6e41;
 }
 .color-box-main .color-box6 {
-  background-color: #551a8b;
+  background-color: #c762cb;
 }
 .navbar.active1 {
-  background-color: #00f;
+  background-color: #2f92ee;
 }
 .btn-default.active1 {
-  background-color: #00f;
-  border-color: #00f;
+  background-color: #2f92ee;
+  border-color: #2f92ee;
 }
 nav.active1 li a:focus,
 nav.active1 li a:hover {
-  color: #00f;
+  color: #2f92ee;
 }
 .list-group-item.active1.active,
 .list-group-item.active1.active:focus,
 .list-group-item.active1.active:hover,
 .list-group-item.active2.active:focus,
 .list-group-item.active2.active:hover {
-  background-color: #00f;
-  border-color: #00f;
+  background-color: #2f92ee;
+  border-color: #2f92ee;
 }
 .navbar.active2 {
-  background-color: #f00;
+  background-color: #fc4242;
 }
 .btn-default.active2 {
-  background-color: #f00;
-  border-color: #f00;
+  background-color: #fc4242;
+  border-color: #fc4242;
 }
 nav.active2 li a:focus,
 nav.active2 li a:hover {
-  color: #f00;
+  color: #fc4242;
 }
 .list-group-item.active2.active {
-  background-color: #f00;
-  border-color: #f00;
+  background-color: #fc4242;
+  border-color: #fc4242;
 }

@@ -26,25 +26,24 @@
 
     <script type="text/javascript">
 
-    function changeColor1()
-    {
- 
-        $('.navbar').addClass('active1');
-        $('.btn-default').addClass('active1');
-        $('.list-group-item').addClass('active1');
-             
+  function setActiveStyleSheet(title) {
+  var i, a, main;
+  for(i=0; (a = document.getElementsByTagName("link")[i]); i++) {
+    if(a.getAttribute("rel").indexOf("style") != -1 && a.getAttribute("title")) {
+      a.disabled = true;
+      if(a.getAttribute("title") == title) a.disabled = false;
     }
-
-    function changeColor2()
-    {
- 
-        $('.navbar').addClass('active2');
-        $('.btn-default').addClass('active2');
-        $('.list-group-item').addClass('active2');
-             
-    }
+  }
+}
 
     </script>
+
+<link rel="alternate stylesheet" type="text/css" href="css/blue.css" title="blue" />
+<link rel="alternate stylesheet" type="text/css" href="css/red.css" title="red" />
+<link rel="alternate stylesheet" type="text/css" href="css/green.css" title="green" />
+<link rel="alternate stylesheet" type="text/css" href="css/yellow.css" title="yellow" />
+<link rel="alternate stylesheet" type="text/css" href="css/orange.css" title="orange" />
+<link rel="alternate stylesheet" type="text/css" href="css/purple.css" title="purple" />
 
   </head>
 
@@ -139,12 +138,12 @@
       </footer>
 
       <section class="color-box-main">
-        <div class="color-box-inner color-box1" onclick="changeColor1()"></div>
-        <div class="color-box-inner color-box2" onclick="changeColor2()"></div>
-        <div class="color-box-inner color-box3"></div>
-        <div class="color-box-inner color-box4"></div>
-        <div class="color-box-inner color-box5"></div>
-        <div class="color-box-inner color-box6"></div>
+        <div class="color-box-inner color-box1" onclick="setActiveStyleSheet('blue'); return false;" title="Blue"></div>
+        <div class="color-box-inner color-box2" onclick="setActiveStyleSheet('red'); return false;" title="Red"></div>
+        <div class="color-box-inner color-box3" onclick="setActiveStyleSheet('green'); return false;" title="Green"></div>
+        <div class="color-box-inner color-box4" onclick="setActiveStyleSheet('yellow'); return false;" title="Yellow"></div>
+        <div class="color-box-inner color-box5" onclick="setActiveStyleSheet('orange'); return false;" title="Orange"></div>
+        <div class="color-box-inner color-box6" onclick="setActiveStyleSheet('purple'); return false;" title="purple"></div>
         
       </section>
 

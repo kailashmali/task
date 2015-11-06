@@ -1,0 +1,21 @@
+color-orange= #ff6e41
+
+.navbar
+  background-color color-orange
+
+.btn-default
+  background-color color-orange
+  border-color color-orange
+
+.nav
+  li 
+    a
+     &:focus, &:hover
+      color color-orange
+
+.list-group-item
+  &.active
+    background-color color-orange
+    border-color color-orange
+    &:focus, &:hover
+      @extends .list-group-item.active

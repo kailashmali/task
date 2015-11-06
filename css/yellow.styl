@@ -1,0 +1,21 @@
+color-yellow= #f2d438
+
+.navbar
+  background-color color-yellow
+
+.btn-default
+  background-color color-yellow
+  border-color color-yellow
+
+.nav
+  li 
+    a
+     &:focus, &:hover
+      color color-yellow
+
+.list-group-item
+  &.active
+    background-color color-yellow
+    border-color color-yellow
+    &:focus, &:hover
+      @extends .list-group-item.active

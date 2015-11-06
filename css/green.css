@@ -1,0 +1,17 @@
+.navbar {
+  background-color: #3fc35f;
+}
+.btn-default {
+  background-color: #3fc35f;
+  border-color: #3fc35f;
+}
+.nav li a:focus,
+.nav li a:hover {
+  color: #3fc35f;
+}
+.list-group-item.active,
+.list-group-item.active:focus,
+.list-group-item.active:hover {
+  background-color: #3fc35f;
+  border-color: #3fc35f;
+}

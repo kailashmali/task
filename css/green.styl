@@ -1,0 +1,21 @@
+color-green= #3fc35f
+
+.navbar
+  background-color color-green
+
+.btn-default
+  background-color color-green
+  border-color color-green
+
+.nav
+  li 
+    a
+     &:focus, &:hover
+      color color-green
+
+.list-group-item
+  &.active
+    background-color color-green
+    border-color color-green
+    &:focus, &:hover
+      @extends .list-group-item.active

@@ -1,0 +1,21 @@
+color-red= #fc4242
+  
+.navbar
+  background-color color-red
+
+.btn-default
+  background-color color-red
+  border-color color-red
+
+.nav
+  li 
+    a
+     &:focus, &:hover
+      color color-red
+
+.list-group-item
+  &.active
+    background-color color-red
+    border-color color-red
+    &:focus, &:hover
+      @extends .list-group-item.active
