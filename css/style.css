@@ -87,3 +87,12 @@ body {
   width: 10px;
   height: 20px;
 }
+.border-1 {
+  border: 1px solid #00f;
+}
+.border-2 {
+  border: 2px solid #00f;
+}
+.border-3 {
+  border: 3px solid #00f;
+}
