@@ -65,3 +65,12 @@ footer {
 .color-box-main .color-box6 {
   background-color: #c762cb;
 }
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: none;
+}
+.back-to-top i {
+  padding: 4px 0;
+}
