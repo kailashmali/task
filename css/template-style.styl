@@ -78,3 +78,28 @@ footer
   display none
   i 
     padding 4px 0
+
+.contact-overlay
+  visibility hidden
+  opacity 0
+  background-color rgba(0,0,0,0.9)
+  width 100%
+  height 100%
+  position fixed
+  top 0
+  left 0
+  color #ffffff
+  z-index 9999
+  transition all 0.3s ease 0s
+  .contact-inner
+    width 50%
+    margin 100px auto
+    h1
+      text-align center
+    .close-contact
+      float right
+      font-size 25px
+      cursor pointer
+  &.active
+    opacity 1
+    visibility visible
