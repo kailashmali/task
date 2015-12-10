@@ -103,3 +103,34 @@ footer {
   opacity: 1;
   visibility: visible;
 }
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.dropdown button {
+  background-color: #ff6223;
+  color: #fff;
+  border: none;
+  margin: 0;
+  padding: 10px 33px;
+}
+.dropdown a {
+  background-color: #ccc;
+  color: #333;
+  padding: 10px 20px !important;
+}
+.dropdown a:hover {
+  background-color: #bbb;
+}
+.dropdown .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin: 0;
+  list-style: none;
+  width: 100%;
+  padding: 0;
+}

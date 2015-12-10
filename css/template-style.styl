@@ -103,3 +103,30 @@ footer
   &.active
     opacity 1
     visibility visible
+
+.dropdown
+  position relative
+  display inline-block
+  &:hover
+    .dropdown-menu
+      display block
+  button
+    background-color #FF6223
+    color #ffffff
+    border none
+    margin 0
+    padding 10px 33px
+  a
+    background-color #cccccc
+    color #333333
+    padding 10px 20px !important
+    &:hover
+      background-color #bbbbbb
+  .dropdown-menu
+    position absolute
+    top 100%
+    left 0
+    margin 0
+    list-style none
+    width 100%
+    padding 0
