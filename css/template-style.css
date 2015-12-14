@@ -134,3 +134,15 @@ footer {
   width: 100%;
   padding: 0;
 }
+#services {
+  text-align: center;
+  background-color: #ccc;
+  padding: 150px 0 0 0;
+  height: 100%;
+}
+#about {
+  text-align: center;
+  background-color: #fff;
+  padding: 150px 0 0 0;
+  height: 100%;
+}
