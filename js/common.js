@@ -18,12 +18,13 @@ $(document).ready(function(){
 });
 
 $(".contact-me").click(function () {
-    
     $('.contact-overlay').addClass('active');
 });
 
-
 $(".close-contact").click(function () {
-    
     $('.contact-overlay').removeClass('active');
+});
+
+$(".search-btn").click(function(){
+    $(".search-container").toggleClass("hide");
 });
