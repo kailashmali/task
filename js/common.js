@@ -26,5 +26,5 @@ $(".close-contact").click(function () {
 });
 
 $(".search-btn").click(function(){
-    $(".search-container").toggleClass("hide");
+    $(".search-container").fadeIn("normal").toggleClass("hide");
 });
