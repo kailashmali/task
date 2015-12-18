@@ -17,14 +17,22 @@ $(document).ready(function(){
     
 });
 
-$(".contact-me").click(function () {
-    $('.contact-overlay').addClass('active');
-});
+$(document).ready(function(){
 
-$(".close-contact").click(function () {
-    $('.contact-overlay').removeClass('active');
-});
+        $(".contact-me").click(function () {
+            $('.contact-overlay').addClass('active');
+        });
 
-$(".search-btn").click(function(){
-    $(".search-container").fadeIn("normal").toggleClass("hide");
+        $(".close-contact").click(function () {
+            $('.contact-overlay').removeClass('active');
+        });
+
+        $(".search-btn").click(function(){
+            $(".search-container").fadeIn("normal").toggleClass("hide");
+        });
+
+        $(".fading-container button").on('click', function(){
+            $(this).siblings("p").slideToggle("slow");
+        });
+
 });

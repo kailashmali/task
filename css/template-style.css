@@ -193,3 +193,9 @@ footer {
 .fanbox .fanbox-inner i {
   color: #fff;
 }
+.fading-container button {
+  margin: 10px 0;
+}
+.fading-container p {
+  display: none;
+}
