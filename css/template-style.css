@@ -171,3 +171,25 @@ footer {
 .search-container {
   margin: 0 0 15px 0;
 }
+.fanbox {
+  position: fixed;
+  right: -165px;
+  top: 45%;
+  z-index: 9;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+.fanbox:hover {
+  right: 0;
+}
+.fanbox .fanbox-inner {
+  padding: 10px;
+  background-color: #f47d1d;
+  cursor: pointer;
+  width: 200px;
+}
+.fanbox .fanbox-inner i {
+  color: #fff;
+}
